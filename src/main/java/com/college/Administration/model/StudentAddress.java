@@ -11,7 +11,7 @@ import lombok.Data;
 public class StudentAddress {
 
     @Id
-            @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     Integer houseNo;
     Integer streetNo;
     String  city;

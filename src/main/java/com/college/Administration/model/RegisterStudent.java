@@ -11,7 +11,7 @@ public class RegisterStudent {
      @Id
      //@JsonProperty("studentAadhaarNumber")
     // @Column(name = "studentAadhaarNumber")
-             @GeneratedValue(strategy = GenerationType.AUTO)
+    // @GeneratedValue(strategy = GenerationType.AUTO)
      String studentAadhaarNumber;
      String studentName;
      String studentFatherName;

@@ -19,6 +19,7 @@ public class Student {
     String phoneNumber;
     String studentEmailId;
     @OneToOne(cascade = CascadeType.ALL)
+
     StudentAddress studentAddress;
 
 

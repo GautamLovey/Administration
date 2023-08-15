@@ -14,6 +14,7 @@ public class RegisterController {
     @PostMapping("/")
    public void addRegisterDetails(@RequestBody RegisterStudent registerStudent){
        registerService.addRegisterDetails(registerStudent);
+
    }
     @GetMapping("/{StudentAadhaarNumber}")
     public RegisterStudent getRegisterDetails(@PathVariable String studentAadhaarNumber){
